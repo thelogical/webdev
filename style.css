@@ -1,0 +1,136 @@
+body {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+	background-color: white;
+}
+
+.content {
+	padding: 0;
+   	position: absolute;
+    top: 100px;
+    left: 20px;
+    right: 20px;
+}
+
+button {
+	margin-left: -5px;
+	margin-right: 5px;
+	padding: 10px 20px;
+	border:0px solid white;
+	cursor: pointer;
+	outline: none;
+	background-color: rgb(200,200,200);
+	font-weight: 100;
+}
+
+#Contracts , #Payments {
+	display: none;
+}
+
+button:focus {
+	outline: none;
+	border: 0;
+}
+
+button:hover {
+	border: 1px solid black;
+}
+
+.tab {
+	margin-left: 5px;
+	font-weight: 100;
+	background-color: rgb(200, 200, 200);
+	display: block;
+}
+
+
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+table {
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    display: inline-table;
+}
+
+th {
+	padding: 10px 0;
+	background-color: rgb(179, 218, 255);
+	color: black;
+	text-align: center;
+	font-weight: 200;
+
+}
+
+tr {
+	padding: 5px 0;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(242, 242, 242);
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(204, 204, 204);
+}
+
+#adding , #adding2 {
+	font-weight: 500;
+	float: right;
+	margin: 10px;
+	padding: 10px 15px;
+	border-radius: 100px;
+	font-size: 20px;
+	background: #47abd8;
+}
+
+
+#Input , #Input2 {
+	float: right;
+	margin: 10px;
+	padding: 10px 15px;
+	display: none;
+	border-radius: 10px;
+}
+
+#add , #add2{
+	display: none;
+}
+
+#update , #update2{
+	float: center;
+	margin: 10px;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+#adding:hover , #update:hover , #adding2:hover , #update2:hover{
+	color: black;
+	 background: linear-gradient(rgb(220,220,220),rgb(200,200,200));
+
+}
+
+td:hover {
+	cursor: pointer;
+}
+
+.Rows_to_display{
+	float: right;
+	margin: 10px;
+}
+
+#next , #next2 {
+	float: right;
+	margin-top: 15px;
+
+}
+
+#logout {
+	float: right;
+	border-radius: 10px;
+}
